@@ -18,7 +18,7 @@ MODEL_OPTIONS = ["LogisticRegression", "RandomForestClassifier"]
 @st.cache_resource
 def load_model(version):
     try:
-        model_path = f"artifacts/{version}/model.pkl"
+        model_path = f"models/{version}.pkl"
         model = joblib.load(model_path)
         logging.info(f"Loaded model: {version}")
         return model
