@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.sqlite
+*.ipynb_checkpoints/
+
+.venv/
+.env/
+.git/
+logs/
+tests/
+test_app.py
+data/
+tmp/
